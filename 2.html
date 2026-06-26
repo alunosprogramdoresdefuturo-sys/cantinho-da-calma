@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation App</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+
+    <div class="phone-container">
+        
+        <header class="app-header">
+            <div class="user-profile">
+                <div class="avatar"></div>
+                <span class="user-name">Your Name</span>
+            </div>
+            <button class="menu-btn" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <main class="app-content">
+            <h1 class="main-title">Menu</h1>
+            <p class="subtitle">Você não está sozinho.</p>
+            
+            <hr class="divider">
+
+            <h2 class="section-title">VAMOS COMEÇAR</h2>
+
+            <div class="sessions-container">
+                <div class="session-card" onclick="playSession(1)">
+                    <div class="play-button">▶</div>
+                    <span>Converças</span>
+                </div>
+                <div class="session-card active" onclick="playSession(2)">
+                    <div class="play-button">▶</div>
+                    <span>Inastruções</span>
+                </div>
+                <div class="session-card" onclick="playSession(3)">
+                    <div class="play-button">▶</div>
+                    <span>Vídeos</span>
+                </div>
+            </div>
+
+            <div class="carousel-dots">
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <div class="illustration-container">
+                <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" class="yoga-illustration">
+                    <rect x="50" y="160" width="300" height="20" rx="10" fill="#2ca8c2"/>
+                    <circle cx="310" cy="120" r="35" fill="#fca1bd"/>
+                    <path d="M40,160 Q20,100 60,80 Q70,120 60,160" fill="#2da3a7"/>
+                    <path d="M60,160 Q80,90 95,110 Q90,140 70,160" fill="#69c3c5"/>
+                    <rect x="45" y="155" width="25" height="25" fill="#1b6373"/>
+                    <circle cx="200" cy="75" r="15" fill="#fcd2c1"/> <path d="M190,70 Q200,55 210,70 L215,80 L185,80 Z" fill="#1a2530"/> <path d="M180,95 L220,95 L225,135 L175,135 Z" fill="#d9729f"/> <path d="M165,135 Q200,165 235,135 Q200,145 165,135" fill="#1a2530"/> </svg>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

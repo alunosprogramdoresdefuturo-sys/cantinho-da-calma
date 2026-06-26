@@ -1,0 +1,202 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eef5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container do Celular */
+.phone-container {
+    width: 375px;
+    height: 712px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* Fundo orgânico rosa no topo */
+    background-image: radial-gradient(circle at 80% 0%, #f7b7cb 0%, #f7b7cb 35%, transparent 36%),
+                      radial-gradient(circle at 20% -5%, #f7b7cb 0%, #f7b7cb 25%, transparent 26%);
+}
+
+/* Cabeçalho */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px 10px 25px;
+    z-index: 10;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    background-color: #1a2530;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 12px;
+    color: #a5a5a5;
+    font-weight: 500;
+}
+
+/* Botão Menu Hambúrguer */
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu-btn span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background-color: #1a2530;
+    border-radius: 2px;
+}
+
+/* Conteúdo Principal */
+.app-content {
+    padding: 10px 30px;
+    text-align: center;
+    z-index: 5;
+}
+
+.main-title {
+    font-size: 20px;
+    color: #1a2530;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 11px;
+    color: #7d7d7d;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.section-title {
+    font-size: 13px;
+    color: #555;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* Grid de Sessões */
+.sessions-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.session-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.session-card:active {
+    transform: scale(0.95);
+}
+
+.play-button {
+    width: 70px;
+    height: 70px;
+    background-color: #a3e0eb;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-indent: 4px; /* Alinha o ícone de play levemente ao centro */
+    transition: background-color 0.3s;
+}
+
+/* Card centralizado ou selecionado ganha cor mais forte */
+.session-card.active .play-button {
+    background-color: #2ca8c2;
+}
+
+.session-card span {
+    font-size: 11px;
+    color: #7d7d7d;
+}
+
+/* Dots Indicadores */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+.dot.active {
+    width: 14px;
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Rodapé com Ondas e Ilustração */
+.app-footer {
+    margin-top: auto;
+    position: relative;
+    background-image: radial-gradient(circle at 50% 120%, #dcf4f8 0%, #dcf4f8 70%, transparent 71%);
+    height: 220px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.illustration-container {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.yoga-illustration {
+    width: 100%;
+    height: auto;
+    display: block;
+}

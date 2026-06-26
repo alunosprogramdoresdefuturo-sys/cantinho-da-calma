@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eceff1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.phone{
+    width:390px;
+    background:#fff;
+    border-radius:35px;
+    padding:22px;
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.08);
+}
+
+.top-area{
+    position:relative;
+    height:160px;
+}
+
+.back{
+    border:none;
+    background:none;
+    font-size:20px;
+    cursor:pointer;
+    color:#333;
+}
+
+.banner{
+    position:absolute;
+    right:0;
+    top:0;
+
+    width:230px;
+    height:110px;
+
+    background:#69d7d8;
+
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius:35px;
+    border-top-left-radius:35px;
+    border-top-right-radius:35px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.meditation-icon{
+    font-size:70px;
+    color:#222;
+}
+
+.title-area h1{
+    font-size:40px;
+    font-weight:700;
+    color:#111;
+}
+
+.title-area p{
+    color:#9e9e9e;
+    margin-top:4px;
+    margin-bottom:25px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.card{
+    background:#fff;
+    border-radius:18px;
+    height:120px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.06);
+
+    transition:.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#eafcfc;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:12px;
+}
+
+.icon i{
+    color:#49cfd1;
+    font-size:22px;
+}
+
+.card span{
+    font-size:13px;
+    font-weight:500;
+    text-align:center;
+    color:#333;
+    padding:0 5px;
+}
