@@ -1,0 +1,279 @@
+MIME-Version: 1.0
+Date: Fri, 26 Jun 2026 14:31:49 -0300
+Message-ID: <CABeptF9oq-GYQRdGu0iEZFp=616fbuiZK_w5bWfx29vCRpaNbQ@mail.gmail.com>
+Subject: html
+From: Emanuela Lima de Castro <emanuela.castro@aluno.senai.br>
+To: ananda.nascimento@aluno.senai.br
+Content-Type: multipart/alternative; boundary="000000000000d0d45406552b7b02"
+
+--000000000000d0d45406552b7b02
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"pt-br">
+<head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Meditation App</title>
+
+    <link rel=3D"stylesheet" href=3D"style.css">
+
+    <!-- Google Font -->
+    <link href=3D"
+https://fonts.googleapis.com/css2?family=3DPoppins:wght@300;400;500;600;700=
+&display=3Dswap
+" rel=3D"stylesheet">
+
+    <!-- =C3=8Dcones -->
+    <link rel=3D"stylesheet"
+    href=3D"
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class=3D"phone">
+
+    <!-- Topo -->
+    <header>
+
+        <i class=3D"fa-solid fa-arrow-left"></i>
+
+        <i class=3D"fa-solid fa-bars"></i>
+
+    </header>
+
+    <!-- Conte=C3=BAdo -->
+
+    <section class=3D"hero">
+
+        <h1>Meditation</h1>
+
+        <p>
+            Stay a short introductory course,
+            start trying meditation.
+        </p>
+
+        <!-- Ilustra=C3=A7=C3=A3o -->
+
+        <div class=3D"illustration">
+
+            <div class=3D"circle"></div>
+
+            <img src=3D"img/meditation.png" alt=3D"Meditation">
+
+        </div>
+
+    </section>
+
+    <!-- Timer -->
+
+    <section class=3D"timer">
+
+        <h2>45:00</h2>
+
+        <button>Start</button>
+
+    </section>
+
+    <!-- Rodap=C3=A9 -->
+
+    <footer>
+
+        <div class=3D"footer-item">
+
+            <i class=3D"fa-regular fa-circle-play"></i>
+
+            <span>How to meditate</span>
+
+        </div>
+
+        <span class=3D"time">
+            15:29
+        </span>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
+
+--000000000000d0d45406552b7b02
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(187,190,191);background-color:rgb(=
+18,19,20);font-family:Consolas,&quot;Courier New&quot;,monospace;font-size:=
+14px;line-height:19px;white-space:pre"><div><span style=3D"color:rgb(128,12=
+8,128)">&lt;!DOCTYPE html&gt;</span></div><div><span style=3D"color:rgb(128=
+,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">html</span> <s=
+pan style=3D"color:rgb(156,220,254)">lang</span>=3D<span style=3D"color:rgb=
+(165,214,255)">&quot;pt-br&quot;</span><span style=3D"color:rgb(128,128,128=
+)">&gt;</span></div><div><span style=3D"color:rgb(128,128,128)">&lt;</span>=
+<span style=3D"color:rgb(126,231,135)">head</span><span style=3D"color:rgb(=
+128,128,128)">&gt;</span></div><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(=
+128,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">meta</span>=
+ <span style=3D"color:rgb(156,220,254)">charset</span>=3D<span style=3D"col=
+or:rgb(165,214,255)">&quot;UTF-8&quot;</span><span style=3D"color:rgb(128,1=
+28,128)">&gt;</span></div><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,1=
+28,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">meta</span> <spa=
+n style=3D"color:rgb(156,220,254)">name</span>=3D<span style=3D"color:rgb(1=
+65,214,255)">&quot;viewport&quot;</span> <span style=3D"color:rgb(156,220,2=
+54)">content</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;width=3D=
+device-width, initial-scale=3D1.0&quot;</span><span style=3D"color:rgb(128,=
+128,128)">&gt;</span></div><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,=
+128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">title</span><sp=
+an style=3D"color:rgb(128,128,128)">&gt;</span>Meditation App<span style=3D=
+"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)"=
+>title</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><d=
+iv>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</span><span st=
+yle=3D"color:rgb(126,231,135)">link</span> <span style=3D"color:rgb(156,220=
+,254)">rel</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;stylesheet=
+&quot;</span> <span style=3D"color:rgb(156,220,254)">href</span>=3D<span st=
+yle=3D"color:rgb(165,214,255)">&quot;style.css&quot;</span><span style=3D"c=
+olor:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=
+=3D"color:rgb(139,148,158)">&lt;!-- Google Font --&gt;</span></div><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D=
+"color:rgb(126,231,135)">link</span> <span style=3D"color:rgb(156,220,254)"=
+>href</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;<a href=3D"http=
+s://fonts.googleapis.com/css2?family=3DPoppins:wght@300;400;500;600;700&amp=
+;display=3Dswap">https://fonts.googleapis.com/css2?family=3DPoppins:wght@30=
+0;400;500;600;700&amp;display=3Dswap</a>&quot;</span> <span style=3D"color:=
+rgb(156,220,254)">rel</span>=3D<span style=3D"color:rgb(165,214,255)">&quot=
+;stylesheet&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span><=
+/div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(139,148,158)">&lt;!-- =
+=C3=8Dcones --&gt;</span></div><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(=
+128,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">link</span>=
+ <span style=3D"color:rgb(156,220,254)">rel</span>=3D<span style=3D"color:r=
+gb(165,214,255)">&quot;stylesheet&quot;</span></div><div>=C2=A0 =C2=A0 <spa=
+n style=3D"color:rgb(156,220,254)">href</span>=3D<span style=3D"color:rgb(1=
+65,214,255)">&quot;<a href=3D"https://cdnjs.cloudflare.com/ajax/libs/font-a=
+wesome/6.5.2/css/all.min.css">https://cdnjs.cloudflare.com/ajax/libs/font-a=
+wesome/6.5.2/css/all.min.css</a>&quot;</span><span style=3D"color:rgb(128,1=
+28,128)">&gt;</span></div><div><span style=3D"color:rgb(128,128,128)">&lt;/=
+</span><span style=3D"color:rgb(126,231,135)">head</span><span style=3D"col=
+or:rgb(128,128,128)">&gt;</span></div><br><div><span style=3D"color:rgb(128=
+,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">body</span><sp=
+an style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div><span style=
+=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135=
+)">div</span> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span s=
+tyle=3D"color:rgb(165,214,255)">&quot;phone&quot;</span><span style=3D"colo=
+r:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=3D"=
+color:rgb(139,148,158)">&lt;!-- Topo --&gt;</span></div><div>=C2=A0 =C2=A0 =
+<span style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(=
+126,231,135)">header</span><span style=3D"color:rgb(128,128,128)">&gt;</spa=
+n></div><br><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,1=
+28,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">i</span> <span s=
+tyle=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(165=
+,214,255)">&quot;fa-solid fa-arrow-left&quot;</span><span style=3D"color:rg=
+b(128,128,128)">&gt;&lt;/</span><span style=3D"color:rgb(126,231,135)">i</s=
+pan><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</span><sp=
+an style=3D"color:rgb(126,231,135)">i</span> <span style=3D"color:rgb(156,2=
+20,254)">class</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;fa-sol=
+id fa-bars&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;&lt;/</sp=
+an><span style=3D"color:rgb(126,231,135)">i</span><span style=3D"color:rgb(=
+128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=3D"color:=
+rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">header=
+</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(139,148,158)">&lt;!-- Conte=C3=BAdo --&=
+gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128=
+)">&lt;</span><span style=3D"color:rgb(126,231,135)">section</span> <span s=
+tyle=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(165=
+,214,255)">&quot;hero&quot;</span><span style=3D"color:rgb(128,128,128)">&g=
+t;</span></div><br><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rg=
+b(128,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">h1</span>=
+<span style=3D"color:rgb(128,128,128)">&gt;</span>Meditation<span style=3D"=
+color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">=
+h1</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</sp=
+an><span style=3D"color:rgb(126,231,135)">p</span><span style=3D"color:rgb(=
+128,128,128)">&gt;</span></div><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 Stay a short introductory course,</div><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 start trying meditation.</div><div>=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 <span style=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color=
+:rgb(126,231,135)">p</span><span style=3D"color:rgb(128,128,128)">&gt;</spa=
+n></div><br><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(139,1=
+48,158)">&lt;!-- Ilustra=C3=A7=C3=A3o --&gt;</span></div><br><div>=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</span><spa=
+n style=3D"color:rgb(126,231,135)">div</span> <span style=3D"color:rgb(156,=
+220,254)">class</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;illus=
+tration&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div=
+><br><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rg=
+b(128,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">div</span=
+> <span style=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"colo=
+r:rgb(165,214,255)">&quot;circle&quot;</span><span style=3D"color:rgb(128,1=
+28,128)">&gt;&lt;/</span><span style=3D"color:rgb(126,231,135)">div</span><=
+span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;=
+</span><span style=3D"color:rgb(126,231,135)">img</span> <span style=3D"col=
+or:rgb(156,220,254)">src</span>=3D<span style=3D"color:rgb(165,214,255)">&q=
+uot;img/meditation.png&quot;</span> <span style=3D"color:rgb(156,220,254)">=
+alt</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;Meditation&quot;<=
+/span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;/</span=
+><span style=3D"color:rgb(126,231,135)">div</span><span style=3D"color:rgb(=
+128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=3D"color:=
+rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">sectio=
+n</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=
+=C2=A0 =C2=A0 <span style=3D"color:rgb(139,148,158)">&lt;!-- Timer --&gt;</=
+span></div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&l=
+t;</span><span style=3D"color:rgb(126,231,135)">section</span> <span style=
+=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(165,214=
+,255)">&quot;timer&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;<=
+/span></div><br><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(1=
+28,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">h2</span><sp=
+an style=3D"color:rgb(128,128,128)">&gt;</span>45:00<span style=3D"color:rg=
+b(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">h2</span=
+><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</span><spa=
+n style=3D"color:rgb(126,231,135)">button</span><span style=3D"color:rgb(12=
+8,128,128)">&gt;</span>Start<span style=3D"color:rgb(128,128,128)">&lt;/</s=
+pan><span style=3D"color:rgb(126,231,135)">button</span><span style=3D"colo=
+r:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=3D"=
+color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">=
+section</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><=
+div>=C2=A0 =C2=A0 <span style=3D"color:rgb(139,148,158)">&lt;!-- Rodap=C3=
+=A9 --&gt;</span></div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,=
+128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">footer</span><s=
+pan style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;</span><span s=
+tyle=3D"color:rgb(126,231,135)">div</span> <span style=3D"color:rgb(156,220=
+,254)">class</span>=3D<span style=3D"color:rgb(165,214,255)">&quot;footer-i=
+tem&quot;</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br=
+><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(12=
+8,128,128)">&lt;</span><span style=3D"color:rgb(126,231,135)">i</span> <spa=
+n style=3D"color:rgb(156,220,254)">class</span>=3D<span style=3D"color:rgb(=
+165,214,255)">&quot;fa-regular fa-circle-play&quot;</span><span style=3D"co=
+lor:rgb(128,128,128)">&gt;&lt;/</span><span style=3D"color:rgb(126,231,135)=
+">i</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,=
+128)">&lt;</span><span style=3D"color:rgb(126,231,135)">span</span><span st=
+yle=3D"color:rgb(128,128,128)">&gt;</span>How to meditate<span style=3D"col=
+or:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">spa=
+n</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br><div>=
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;/</s=
+pan><span style=3D"color:rgb(126,231,135)">div</span><span style=3D"color:r=
+gb(128,128,128)">&gt;</span></div><br><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 <spa=
+n style=3D"color:rgb(128,128,128)">&lt;</span><span style=3D"color:rgb(126,=
+231,135)">span</span> <span style=3D"color:rgb(156,220,254)">class</span>=
+=3D<span style=3D"color:rgb(165,214,255)">&quot;time&quot;</span><span styl=
+e=3D"color:rgb(128,128,128)">&gt;</span></div><div>=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 15:29</div><div>=C2=A0 =C2=A0 =C2=A0 =C2=A0 <span style=
+=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,13=
+5)">span</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><br>=
+<div>=C2=A0 =C2=A0 <span style=3D"color:rgb(128,128,128)">&lt;/</span><span=
+ style=3D"color:rgb(126,231,135)">footer</span><span style=3D"color:rgb(128=
+,128,128)">&gt;</span></div><br><div><span style=3D"color:rgb(128,128,128)"=
+>&lt;/</span><span style=3D"color:rgb(126,231,135)">div</span><span style=
+=3D"color:rgb(128,128,128)">&gt;</span></div><br><div><span style=3D"color:=
+rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,135)">body</=
+span><span style=3D"color:rgb(128,128,128)">&gt;</span></div><div><span sty=
+le=3D"color:rgb(128,128,128)">&lt;/</span><span style=3D"color:rgb(126,231,=
+135)">html</span><span style=3D"color:rgb(128,128,128)">&gt;</span></div></=
+div></div>
+
+--000000000000d0d45406552b7b02--

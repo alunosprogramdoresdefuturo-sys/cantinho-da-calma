@@ -1,0 +1,462 @@
+MIME-Version: 1.0
+Date: Fri, 26 Jun 2026 14:33:05 -0300
+Message-ID: <CABeptF_h_WmBq3Gg_d=o9Q6bou+0OtNZ3N19vW5SJarpOycnAg@mail.gmail.com>
+Subject: css
+From: Emanuela Lima de Castro <emanuela.castro@aluno.senai.br>
+To: ananda.nascimento@aluno.senai.br
+Content-Type: multipart/alternative; boundary="0000000000005ae83506552b8016"
+
+--0000000000005ae83506552b8016
+Content-Type: text/plain; charset="UTF-8"
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#ececec;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+.phone{
+
+    width:340px;
+
+    background:white;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+/*==================*/
+
+header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:25px;
+
+    color:#555;
+
+    font-size:18px;
+
+}
+
+/*==================*/
+
+.hero{
+
+    text-align:center;
+
+    padding:0 25px;
+
+}
+
+.hero h1{
+
+    font-size:36px;
+
+    font-weight:700;
+
+    color:#222;
+
+}
+
+.hero h1::after{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+
+    height:5px;
+
+    background:#61D7D6;
+
+    margin:8px auto;
+
+    border-radius:10px;
+
+}
+
+.hero p{
+
+    color:#777;
+
+    font-size:13px;
+
+    margin-top:15px;
+
+    line-height:20px;
+
+}
+
+/*==================*/
+
+.illustration{
+
+    position:relative;
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.circle{
+
+    width:220px;
+
+    height:220px;
+
+    background:#B9F4F2;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    z-index:0;
+
+}
+
+.illustration img{
+
+    width:220px;
+
+    position:relative;
+
+    z-index:1;
+
+}
+
+/*==================*/
+
+.timer{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}
+
+.timer h2{
+
+    font-size:30px;
+
+    font-weight:500;
+
+    color:#444;
+
+}
+
+.timer button{
+
+    margin-top:20px;
+
+    width:180px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#74E2DF;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.timer button:hover{
+
+    background:#45d0cc;
+
+}
+
+/*==================*/
+
+footer{
+
+    margin-top:45px;
+
+    border-top:1px solid #ddd;
+
+    padding:18px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.footer-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#555;
+
+}
+
+.footer-item i{
+
+    color:#74E2DF;
+
+    font-size:18px;
+
+}
+
+.time{
+
+    color:#888;
+
+    font-size:12px;
+
+}
+
+/*==================*/
+
+@media(max-width:400px){
+
+.phone{
+
+    width:95%;
+
+}
+
+}
+
+--0000000000005ae83506552b8016
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(187,190,191);background-color:rgb(=
+18,19,20);font-family:Consolas,&quot;Courier New&quot;,monospace;font-size:=
+14px;line-height:19px;white-space:pre"><div><span style=3D"color:rgb(126,23=
+1,135)">*</span>{</div><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,=
+254)">margin</span>:<span style=3D"color:rgb(181,206,168)">0</span>;</div><=
+div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">padding</span>:<sp=
+an style=3D"color:rgb(181,206,168)">0</span>;</div><div>=C2=A0 =C2=A0 <span=
+ style=3D"color:rgb(156,220,254)">box-sizing</span>:<span style=3D"color:rg=
+b(206,145,120)">border-box</span>;</div><div>=C2=A0 =C2=A0 <span style=3D"c=
+olor:rgb(156,220,254)">font-family</span>:<span style=3D"color:rgb(165,214,=
+255)">&#39;Poppins&#39;</span>,<span style=3D"color:rgb(206,145,120)">sans-=
+serif</span>;</div><div>}</div><br><div><span style=3D"color:rgb(215,186,12=
+5)">body</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,2=
+20,254)">background</span>:<span style=3D"color:rgb(206,145,120)">#ececec</=
+span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">d=
+isplay</span>:<span style=3D"color:rgb(206,145,120)">flex</span>;</div><div=
+>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">justify-content</span=
+>:<span style=3D"color:rgb(206,145,120)">center</span>;</div><div>=C2=A0 =
+=C2=A0 <span style=3D"color:rgb(156,220,254)">align-items</span>:<span styl=
+e=3D"color:rgb(206,145,120)">center</span>;</div><br><div>=C2=A0 =C2=A0 <sp=
+an style=3D"color:rgb(156,220,254)">height</span>:<span style=3D"color:rgb(=
+181,206,168)">100vh</span>;</div><div>}</div><br><div><span style=3D"color:=
+rgb(215,186,125)">.phone</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D=
+"color:rgb(156,220,254)">width</span>:<span style=3D"color:rgb(181,206,168)=
+">340px</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,22=
+0,254)">background</span>:<span style=3D"color:rgb(206,145,120)">white</spa=
+n>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">bord=
+er-radius</span>:<span style=3D"color:rgb(181,206,168)">30px</span>;</div><=
+br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">overflow</span=
+>:<span style=3D"color:rgb(206,145,120)">hidden</span>;</div><br><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">box-shadow</span>:<span s=
+tyle=3D"color:rgb(181,206,168)">0</span> <span style=3D"color:rgb(181,206,1=
+68)">10px</span> <span style=3D"color:rgb(181,206,168)">25px</span> <span s=
+tyle=3D"color:rgb(220,220,170)">rgba</span>(<span style=3D"color:rgb(181,20=
+6,168)">0</span>,<span style=3D"color:rgb(181,206,168)">0</span>,<span styl=
+e=3D"color:rgb(181,206,168)">0</span>,<span style=3D"color:rgb(181,206,168)=
+">.15</span>);</div><br><div>}</div><br><div><span style=3D"color:rgb(139,1=
+48,158)">/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/</span><=
+/div><br><div><span style=3D"color:rgb(215,186,125)">header</span>{</div><b=
+r><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">display</span>:=
+<span style=3D"color:rgb(206,145,120)">flex</span>;</div><br><div>=C2=A0 =
+=C2=A0 <span style=3D"color:rgb(156,220,254)">justify-content</span>:<span =
+style=3D"color:rgb(206,145,120)">space-between</span>;</div><br><div>=C2=A0=
+ =C2=A0 <span style=3D"color:rgb(156,220,254)">padding</span>:<span style=
+=3D"color:rgb(181,206,168)">25px</span>;</div><br><div>=C2=A0 =C2=A0 <span =
+style=3D"color:rgb(156,220,254)">color</span>:<span style=3D"color:rgb(206,=
+145,120)">#555</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb=
+(156,220,254)">font-size</span>:<span style=3D"color:rgb(181,206,168)">18px=
+</span>;</div><br><div>}</div><br><div><span style=3D"color:rgb(139,148,158=
+)">/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/</span></div><=
+br><div><span style=3D"color:rgb(215,186,125)">.hero</span>{</div><br><div>=
+=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">text-align</span>:<spa=
+n style=3D"color:rgb(206,145,120)">center</span>;</div><br><div>=C2=A0 =C2=
+=A0 <span style=3D"color:rgb(156,220,254)">padding</span>:<span style=3D"co=
+lor:rgb(181,206,168)">0</span> <span style=3D"color:rgb(181,206,168)">25px<=
+/span>;</div><br><div>}</div><br><div><span style=3D"color:rgb(215,186,125)=
+">.hero</span> <span style=3D"color:rgb(215,186,125)">h1</span>{</div><br><=
+div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">font-size</span>:<=
+span style=3D"color:rgb(181,206,168)">36px</span>;</div><br><div>=C2=A0 =C2=
+=A0 <span style=3D"color:rgb(156,220,254)">font-weight</span>:<span style=
+=3D"color:rgb(181,206,168)">700</span>;</div><br><div>=C2=A0 =C2=A0 <span s=
+tyle=3D"color:rgb(156,220,254)">color</span>:<span style=3D"color:rgb(206,1=
+45,120)">#222</span>;</div><br><div>}</div><br><div><span style=3D"color:rg=
+b(215,186,125)">.hero</span> <span style=3D"color:rgb(215,186,125)">h1::aft=
+er</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254=
+)">content</span>:<span style=3D"color:rgb(165,214,255)">&quot;&quot;</span=
+>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">displ=
+ay</span>:<span style=3D"color:rgb(206,145,120)">block</span>;</div><br><di=
+v>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">width</span>:<span s=
+tyle=3D"color:rgb(181,206,168)">90px</span>;</div><br><div>=C2=A0 =C2=A0 <s=
+pan style=3D"color:rgb(156,220,254)">height</span>:<span style=3D"color:rgb=
+(181,206,168)">5px</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color=
+:rgb(156,220,254)">background</span>:<span style=3D"color:rgb(206,145,120)"=
+>#61D7D6</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,2=
+20,254)">margin</span>:<span style=3D"color:rgb(181,206,168)">8px</span> <s=
+pan style=3D"color:rgb(206,145,120)">auto</span>;</div><br><div>=C2=A0 =C2=
+=A0 <span style=3D"color:rgb(156,220,254)">border-radius</span>:<span style=
+=3D"color:rgb(181,206,168)">10px</span>;</div><br><div>}</div><br><div><spa=
+n style=3D"color:rgb(215,186,125)">.hero</span> <span style=3D"color:rgb(21=
+5,186,125)">p</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(=
+156,220,254)">color</span>:<span style=3D"color:rgb(206,145,120)">#777</spa=
+n>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">font=
+-size</span>:<span style=3D"color:rgb(181,206,168)">13px</span>;</div><br><=
+div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">margin-top</span>:=
+<span style=3D"color:rgb(181,206,168)">15px</span>;</div><br><div>=C2=A0 =
+=C2=A0 <span style=3D"color:rgb(156,220,254)">line-height</span>:<span styl=
+e=3D"color:rgb(181,206,168)">20px</span>;</div><br><div>}</div><br><div><sp=
+an style=3D"color:rgb(139,148,158)">/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D*/</span></div><br><div><span style=3D"color:rgb(215,186,=
+125)">.illustration</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"colo=
+r:rgb(156,220,254)">position</span>:<span style=3D"color:rgb(206,145,120)">=
+relative</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,2=
+20,254)">margin-top</span>:<span style=3D"color:rgb(181,206,168)">30px</spa=
+n>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">disp=
+lay</span>:<span style=3D"color:rgb(206,145,120)">flex</span>;</div><br><di=
+v>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">justify-content</spa=
+n>:<span style=3D"color:rgb(206,145,120)">center</span>;</div><br><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">align-items</span>:<span =
+style=3D"color:rgb(206,145,120)">center</span>;</div><br><div>}</div><br><d=
+iv><span style=3D"color:rgb(215,186,125)">.circle</span>{</div><br><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">width</span>:<span style=
+=3D"color:rgb(181,206,168)">220px</span>;</div><br><div>=C2=A0 =C2=A0 <span=
+ style=3D"color:rgb(156,220,254)">height</span>:<span style=3D"color:rgb(18=
+1,206,168)">220px</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:=
+rgb(156,220,254)">background</span>:<span style=3D"color:rgb(206,145,120)">=
+#B9F4F2</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,22=
+0,254)">border-radius</span>:<span style=3D"color:rgb(181,206,168)">50%</sp=
+an>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">pos=
+ition</span>:<span style=3D"color:rgb(206,145,120)">absolute</span>;</div><=
+br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">z-index</span>=
+:<span style=3D"color:rgb(181,206,168)">0</span>;</div><br><div>}</div><br>=
+<div><span style=3D"color:rgb(215,186,125)">.illustration</span> <span styl=
+e=3D"color:rgb(215,186,125)">img</span>{</div><br><div>=C2=A0 =C2=A0 <span =
+style=3D"color:rgb(156,220,254)">width</span>:<span style=3D"color:rgb(181,=
+206,168)">220px</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rg=
+b(156,220,254)">position</span>:<span style=3D"color:rgb(206,145,120)">rela=
+tive</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,2=
+54)">z-index</span>:<span style=3D"color:rgb(181,206,168)">1</span>;</div><=
+br><div>}</div><br><div><span style=3D"color:rgb(139,148,158)">/*=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/</span></div><br><div><span =
+style=3D"color:rgb(215,186,125)">.timer</span>{</div><br><div>=C2=A0 =C2=A0=
+ <span style=3D"color:rgb(156,220,254)">text-align</span>:<span style=3D"co=
+lor:rgb(206,145,120)">center</span>;</div><br><div>=C2=A0 =C2=A0 <span styl=
+e=3D"color:rgb(156,220,254)">margin-top</span>:<span style=3D"color:rgb(181=
+,206,168)">30px</span>;</div><br><div>}</div><br><div><span style=3D"color:=
+rgb(215,186,125)">.timer</span> <span style=3D"color:rgb(215,186,125)">h2</=
+span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">f=
+ont-size</span>:<span style=3D"color:rgb(181,206,168)">30px</span>;</div><b=
+r><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">font-weight</sp=
+an>:<span style=3D"color:rgb(181,206,168)">500</span>;</div><br><div>=C2=A0=
+ =C2=A0 <span style=3D"color:rgb(156,220,254)">color</span>:<span style=3D"=
+color:rgb(206,145,120)">#444</span>;</div><br><div>}</div><br><div><span st=
+yle=3D"color:rgb(215,186,125)">.timer</span> <span style=3D"color:rgb(215,1=
+86,125)">button</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rg=
+b(156,220,254)">margin-top</span>:<span style=3D"color:rgb(181,206,168)">20=
+px</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254=
+)">width</span>:<span style=3D"color:rgb(181,206,168)">180px</span>;</div><=
+br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">height</span>:=
+<span style=3D"color:rgb(181,206,168)">50px</span>;</div><br><div>=C2=A0 =
+=C2=A0 <span style=3D"color:rgb(156,220,254)">border</span>:<span style=3D"=
+color:rgb(206,145,120)">none</span>;</div><br><div>=C2=A0 =C2=A0 <span styl=
+e=3D"color:rgb(156,220,254)">border-radius</span>:<span style=3D"color:rgb(=
+181,206,168)">40px</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color=
+:rgb(156,220,254)">background</span>:<span style=3D"color:rgb(206,145,120)"=
+>#74E2DF</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,2=
+20,254)">color</span>:<span style=3D"color:rgb(206,145,120)">white</span>;<=
+/div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">font-siz=
+e</span>:<span style=3D"color:rgb(181,206,168)">18px</span>;</div><br><div>=
+=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">cursor</span>:<span st=
+yle=3D"color:rgb(206,145,120)">pointer</span>;</div><br><div>=C2=A0 =C2=A0 =
+<span style=3D"color:rgb(156,220,254)">transition</span>:<span style=3D"col=
+or:rgb(181,206,168)">.3s</span>;</div><br><div>}</div><br><div><span style=
+=3D"color:rgb(215,186,125)">.timer</span> <span style=3D"color:rgb(215,186,=
+125)">button:hover</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color=
+:rgb(156,220,254)">background</span>:<span style=3D"color:rgb(206,145,120)"=
+>#45d0cc</span>;</div><br><div>}</div><br><div><span style=3D"color:rgb(139=
+,148,158)">/*=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/</span=
+></div><br><div><span style=3D"color:rgb(215,186,125)">footer</span>{</div>=
+<br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">margin-top</s=
+pan>:<span style=3D"color:rgb(181,206,168)">45px</span>;</div><br><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">border-top</span>:<span s=
+tyle=3D"color:rgb(181,206,168)">1px</span> <span style=3D"color:rgb(206,145=
+,120)">solid</span> <span style=3D"color:rgb(206,145,120)">#ddd</span>;</di=
+v><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">padding</sp=
+an>:<span style=3D"color:rgb(181,206,168)">18px</span>;</div><br><div>=C2=
+=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">display</span>:<span styl=
+e=3D"color:rgb(206,145,120)">flex</span>;</div><br><div>=C2=A0 =C2=A0 <span=
+ style=3D"color:rgb(156,220,254)">justify-content</span>:<span style=3D"col=
+or:rgb(206,145,120)">space-between</span>;</div><br><div>=C2=A0 =C2=A0 <spa=
+n style=3D"color:rgb(156,220,254)">align-items</span>:<span style=3D"color:=
+rgb(206,145,120)">center</span>;</div><br><div>}</div><br><div><span style=
+=3D"color:rgb(215,186,125)">.footer-item</span>{</div><br><div>=C2=A0 =C2=
+=A0 <span style=3D"color:rgb(156,220,254)">display</span>:<span style=3D"co=
+lor:rgb(206,145,120)">flex</span>;</div><br><div>=C2=A0 =C2=A0 <span style=
+=3D"color:rgb(156,220,254)">align-items</span>:<span style=3D"color:rgb(206=
+,145,120)">center</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:=
+rgb(156,220,254)">gap</span>:<span style=3D"color:rgb(181,206,168)">10px</s=
+pan>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">co=
+lor</span>:<span style=3D"color:rgb(206,145,120)">#555</span>;</div><br><di=
+v>}</div><br><div><span style=3D"color:rgb(215,186,125)">.footer-item</span=
+> <span style=3D"color:rgb(215,186,125)">i</span>{</div><br><div>=C2=A0 =C2=
+=A0 <span style=3D"color:rgb(156,220,254)">color</span>:<span style=3D"colo=
+r:rgb(206,145,120)">#74E2DF</span>;</div><br><div>=C2=A0 =C2=A0 <span style=
+=3D"color:rgb(156,220,254)">font-size</span>:<span style=3D"color:rgb(181,2=
+06,168)">18px</span>;</div><br><div>}</div><br><div><span style=3D"color:rg=
+b(215,186,125)">.time</span>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"co=
+lor:rgb(156,220,254)">color</span>:<span style=3D"color:rgb(206,145,120)">#=
+888</span>;</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,25=
+4)">font-size</span>:<span style=3D"color:rgb(181,206,168)">12px</span>;</d=
+iv><br><div>}</div><br><div><span style=3D"color:rgb(139,148,158)">/*=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D*/</span></div><br><div><sp=
+an style=3D"color:rgb(197,134,192)">@media</span>(<span style=3D"color:rgb(=
+156,220,254)">max-width</span>:<span style=3D"color:rgb(181,206,168)">400px=
+</span>){</div><br><div><span style=3D"color:rgb(215,186,125)">.phone</span=
+>{</div><br><div>=C2=A0 =C2=A0 <span style=3D"color:rgb(156,220,254)">width=
+</span>:<span style=3D"color:rgb(181,206,168)">95%</span>;</div><br><div>}<=
+/div><br><div>}</div></div></div>
+
+--0000000000005ae83506552b8016--
