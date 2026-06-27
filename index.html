@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configurações básicas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Meditation</title>
+    <!-- Informações da página -->
+    <title>Meditation</title>
+    <meta name="description" content="Aplicativo de meditação para relaxamento e bem-estar.">
+    <meta name="author" content="Seu Nome">
 
-<link rel="stylesheet" href="style.css">
+    <!-- Ícone da aba (opcional) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Fonte do Google (opcional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="phone">
+    <main class="phone">
 
-    <div class="top-wave"></div>
+        <!-- Onda Superior -->
+        <div class="top-wave"></div>
 
-    <div class="content">
+        <!-- Conteúdo Principal -->
+        <section class="content">
 
-        <p class="">Bem-vindo(a)</p>
+            <p class="welcome">
+                Bem-vindo(a)
+            </p>
 
-        <h1>Sinta a leveza</h1>
+            <h1>
+                Sinta a leveza
+            </h1>
 
-        <img src="Saúde mental.png" class="lotus">
+            <img
+                src="Saúde mental.png"
+                alt="Imagem representando meditação e saúde mental"
+                class="lotus"
+            >
 
-        <button id="startBtn">
-            Começar<br>
-        </button>
+            <button id="startBtn" type="button">
+                Começar
+            </button>
 
-        <p class="version">Version 1.0</p>
+            <p class="version">
+                Versão 1.0
+            </p>
 
-    </div>
+        </section>
 
-    <div class="bottom-wave"></div>
+        <!-- Onda Inferior -->
+        <div class="bottom-wave"></div>
 
-</div>
+    </main>
 
-<script src="script.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
+
 </html>
